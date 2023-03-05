@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+   
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw; 
+    background-image: url(/Assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 110%;
+   background-attachment: fixed;
+   
+    
+   
+    
+} 
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    /* background-color: #000; */
+}
+
+.line{
+    height: 40px;
+    background-color: #ffff;
+    width: 1px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul{
+    display: flex ;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 15%;
+    font-weight: 600;
+
+}
+
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffff;
+
+
+}
+
+ul li a img{
+    width: 100px;
+}
+
+
+
+ul li{
+  padding: 10px;
+  list-style: none;
+}
+
+
+nav button{
+    padding: 15px 20px;
+    margin-right: 10%;
+    font-size: 18px;
+    color: rgb(245, 249, 249);
+    background-color: rgb(210, 4, 200);
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    margin-top: 80px;
+}
+
+
+.main h1{
+    margin-top: 90px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: capitalize;
+ }
+
+ .main p{
+    text-transform: capitalize;
+    color: white;
+    font-size: 25px;
+    margin-top: 4px;
+ }
+
+
+
+.main button{
+    padding: 15px 20px;
+   margin-left: 30%;
+   margin-top: 15px;
+   
+    font-size: 18px;
+    color: rgb(245, 249, 249);
+    background-color: rgb(200, 10, 200);;
+    border: none;
+    border-radius: 10px;
+    text-transform: capitalize;
+  
+    
+}
+
